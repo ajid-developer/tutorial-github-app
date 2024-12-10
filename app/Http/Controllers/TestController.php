@@ -12,4 +12,8 @@ class TestController
     {
         return view('welcome');
     }
+    public function save()
+    {
+        return view('save');
+    }
 }
