@@ -8,4 +8,8 @@ class TestController
     {
         return view('welcome');
     }
+    public function add()
+    {
+        return view('welcome');
+    }
 }
